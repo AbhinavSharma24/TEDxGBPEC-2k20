@@ -1,0 +1,426 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Montserrat";
+}
+
+
+#title{
+  color: white;
+
+}
+
+.container{
+  margin-left: 5rem;
+  padding: 3% 15% 6%;
+}
+
+.navbar-custom{
+  position: sticky;
+  background-color: #000;
+}
+
+.navbar{
+  padding-bottom: 3rem;
+}
+
+.navbar-brand{
+  size: 3rem;
+  margin-left: 10%;
+  margin: -1.2% 8% -1.2%;
+}
+
+.nav-text{
+  color: #fff;
+}
+
+.nav-text:hover{
+  color: #e61e2b;
+}
+
+.navbar-toggler-icon{
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.ticket-button{
+  background-color: #660000;
+  color: white;
+  margin-top: 5px;
+  padding: 7px 15px;
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+}
+
+.collapse{
+  font-size: 1.4rem;
+  margin-right: 6%;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.heading{
+  font-family: 'Calistoga', cursive;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+#demo {
+  font-size: 4rem;
+  color: white;
+  font-family: 'Acme';
+  letter-spacing:3px;
+  margin-top: -10px;
+}
+
+.date{
+  font-size: 2rem;
+  letter-spacing: 4px;
+  margin-top: -20px;
+}
+
+.download-button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4rem;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: all 0.5s;
+    cursor: pointer;
+}
+
+.download-button {
+  background-color: 	#660000;
+  color: white;
+  font-size: 1.5rem;
+  border: 3px solid #fff;
+}
+
+.download-button:hover {
+  background-color: #fff;
+  font-style: bold;
+  border: 3px solid 	#660000;
+  color: #660000;
+}
+
+.download-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.download-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.download-button:hover span {
+  padding-right: 25px;
+}
+
+.download-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.venue{
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.venue-desc{
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.directions{
+  padding: 8px;
+  color: #fff;
+  background-color: #660000;
+  margin-top: 10px;
+}
+
+.features-box2{
+  padding: 4% 0%;
+  text-align: center;
+}
+
+.features-box1{
+  padding: 4% 0%;
+  text-align: center;
+}
+
+.speaker-heading{
+  color: #fff;
+  font-family: 'Calistoga', cursive;
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.modal-content{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSBHU01qxRDcO0rC_6aAEzBkbWTd5u7m1RKq1q0HDquRttNgyAZ);
+}
+
+.speaker-social{
+  text-align: center;
+  color: white;
+  margin-left: 2rem;
+  padding: 1.5% 1.5% 0;
+  font-size: 2rem;
+}
+
+.speaker-social:hover{
+  color: grey;
+}
+
+.speaker-social4{
+  text-align: center;
+  color: white;
+  margin-left: 2rem;
+  padding: 1.5% 1.5% 0;
+  margin-right: 7rem;
+  font-size: 2rem;
+}
+
+.speaker-social4:hover{
+  color: grey;
+}
+
+#about{
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+h2{
+  font-family: "Calistoga";
+}
+
+hr{
+ border-color: #e62e1b;
+ width: 20%;
+}
+
+h3{
+  font-weight: bold;
+  color: #404040;
+  letter-spacing: 6px;
+  font-family: "Calistoga";
+}
+
+ .features-desc{
+   width: 72%;
+   font-family: 'Quicksand', sans-serif;
+   margin: 0 auto;
+   font-size: 1.0rem;
+   color: #595959;
+ }
+
+#gallary{
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.card-123{
+  width: 100%;
+}
+
+.cardvideo{
+  text-align: center;
+}
+
+.card-title{
+  font-size: 3rem;
+}
+
+.videosPlay{
+  margin-top: 12%;
+  color: #fff;
+  font-size: 12rem;
+}
+
+.videosPlay:hover{
+  color: #660000;
+}
+
+#partners{
+  text-align: center;
+  background-color: #f2f2f2;
+  padding-bottom: 3%;
+}
+
+.partners-heading{
+  font-family: 'Calistoga', cursive;
+  text-align: center;
+  padding: 3rem;
+  font-size: 3rem;
+  padding-top: 5rem;
+}
+
+.partners-desc{
+  font-family: 'Quicksand', cursive;
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+.partners-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#speakers{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-coloumn{
+  padding: 3% 2%;
+}
+
+#cta{
+  color: #fff;
+  text-align: center;
+  padding: 2% 2% 0.5%;
+}
+
+.newsletter{
+  padding: 5px;
+}
+
+.newsletterBtn{
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.download-btn{
+    margin: 0 2% 2% 0;
+}
+
+.devAbhinav{
+  font-style: italic;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.devAbhinav:hover{
+  color: grey;
+}
+
+.footer-contact{
+  color: white;
+  padding: 1.5% 1.5% 0;
+  font-size: 3rem;
+}
+
+.footer-contact:hover{
+  color: #e62e16;
+}
+
+.footer-links{
+  font-style: oblique;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.footer-links:hover{
+  color: #fff;
+}
+
+#team2k20{
+  text-align: center;
+  margin-left: 3%;
+}
+
+@media (max-width: 1028px){
+  .navbar-brand{
+    size: 3rem;
+    margin: -1.2% 0 -1.2%;
+  }
+
+  .heading{
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .date{
+    font-size: 1.8rem;
+    margin-top: -5px;
+  }
+
+  #demo{
+    font-size: 3.1rem;
+  }
+
+  .venue{
+    padding-top: 0rem;
+    margin-top: 40px;
+  }
+
+  .features-box1{
+    padding-top: 15%;
+    padding-bottom: 8%;
+  }
+
+  .features-box2{
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+  .container{
+    text-align: center;
+  }
+  .testimonial-desc{
+    font-size: 1.2rem;
+  }
+
+  .pricing-coloumn{
+    padding: -1%;
+  }
+
+  .testimonial-image{
+    width: 20%;
+  }
+
+  .newsletterBtn{
+    margin-top: 50px;
+  }
+
+  .videosPlay{
+    margin-top: 0%;
+    font-size: 6rem;
+  }
+
+  .card-title{
+    font-size: 2rem;
+  }
+
+  .speaker-social4{
+    margin-right: 3.5rem;
+  }
+
+  .card-123{
+    width: 150%;
+    margin-left: -20%;
+  }
+}
+
+@media (max-width: 410px) {
+  .card-123{
+    width: 150%;
+  }
+}
